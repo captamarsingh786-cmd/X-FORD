@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X FORD Gym</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+    <div class="logo">X FORD GYM</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#bmi">BMI</a></li>
+        <section id="bmi" class="bmi">
+    <h2>BMI Calculator</h2>
+
+    <input type="number" id="height" placeholder="Height (cm)">
+    <input type="number" id="weight" placeholder="Weight (kg)">
+
+    <button onclick="calculateBMI()">
+        Calculate BMI
+    </button>
+
+    <p id="bmiResult"></p>
+</section>
+    </ul>
+</nav>
+
+<section id="home" class="hero"></section>
+    <h1>Transform Your Body</h1>
+    <p>Join X FORD Fitness Gym Today</p>
+
+    <button class="btn">
+        Join Now
+    </button>
+</section>
+<section id="about" class="about"></section>
+    <h2>About X Ford Gym</h2>
+
+    <p>
+        X Ford Gym is dedicated to helping people build strength,
+        improve fitness, and achieve their health goals through
+        professional training and modern equipment.
+    </p>
+</section>
+<section class="gallery">
+    <h2>Our Gym Gallery</h2>
+
+    <div class="gallery-container">
+        <img src="images/gym1.jpg" alt="Gym Photo 1">
+        <img src="images/gym2.jpg" alt="Gym Photo 2">
+        <img src="images/gym3.jpg" alt="Gym Photo 3">
+    </div>
+</section>
+<section id="plans" class="plans"></section>
+    <h2>Membership Plans</h2>
+
+    <div class="plan-container">
+
+        <div class="card">
+            <h3>Basic</h3>
+            <h1>₹999</h1>
+            <p>1 Month Access</p>
+        </div>
+
+        <div class="card">
+            <h3>Standard</h3>
+            <h1>₹2499</h1>
+            <p>3 Months Access</p>
+        </div>
+
+        <div class="card">
+            <h3>Premium</h3>
+            <h1>₹4999</h1>
+            <p>6 Months Access</p>
+        </div>
+
+    </div>
+</section>
+<section id="join" class="join">
+    <h2>Join X Ford Gym</h2>
+
+    <form id="joinForm">
+
+        <input type="text" id="name" placeholder="Enter Your Name">
+
+        <input type="tel" id="phone" placeholder="Enter Phone Number">
+
+        <select id="goal">
+            <option value="">Select Goal</option>
+            <option>Weight Loss</option>
+            <option>Muscle Gain</option>
+            <option>General Fitness</option>
+        </select>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+</section>
+<section id="contact" class="contact">
+    <h2>Contact X Ford Gym</h2>
+
+    <p>📍 hisar, Haryana</p>
+    <p>📞 +91 99964 05977</p>
+    <p>✉️ xfordgym@email.com</p>
+
+    <button class="contact-btn">
+        Contact Now
+        <div class="social">
+    
+    <a href="https://wa.me/9996405977" target="_blank" class="whatsapp">
+        WhatsApp
+    </a>
+
+    <a href="https://instagram.com/xfordgyms" target="_blank" class="instagram">
+        Instagram
+    </a>
+
+    <a href="https://www.google.com/maps/place/XFORD+GYM/@29.1617471,75.7499297,17z/data=!3m1!4b1!4m6!3m5!1s0x3912334828d9eead:0x9b2862693ec073db!8m2!3d29.1617424!4d75.7525046!16s%2Fg%2F11sns2xhnb?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="maps">
+        Location
+    </a>
+
+</div>
+    </button>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
