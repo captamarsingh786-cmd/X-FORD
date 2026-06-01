@@ -80,7 +80,7 @@ a {
     transform: scale(1.05);
 }
 .about {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0);
     width: 80%;
     margin: 50px auto;
     padding: 40px;
