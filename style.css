@@ -14,10 +14,10 @@ body {
 }
 .hero {
     background: rgba(0, 0, 0, 0);
-    padding: 80px;
+    padding: 50px;
     border-radius: 15px;
     width: 70%;
-    margin: 150px auto;
+    margin: 50px auto;
 }
 
 h1 {
